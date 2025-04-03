@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEXIA ECOMMERCE - Product Details</title>
+    <meta name="description" content="View product details at ShopEasy">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">ALEXIA</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> &gt; 
+                    <a href="product.html">Products</a> &gt; 
+                    <span id="product-category-breadcrumb">Product</span> &gt; 
+                    <span id="product-name-breadcrumb">Details</span>
+                </div>
+                
+                <div class="product-detail-container" id="product-detail-container">
+                    <!-- Product details will be populated by JavaScript -->
+                    <div class="loading">Loading product details...</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="related-products">
+            <div class="container">
+                <h2>You May Also Like</h2>
+                <div class="products-grid" id="related-products">
+                    <!-- Related products will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h3>ShopEasy</h3>
+                <p>Your trusted online shopping destination since 2023.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: NJUGUNAMIRII99@GMAIL.COM</p>
+                <p>Phone: 0707143297</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 ALEXIA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
